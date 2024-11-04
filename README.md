@@ -11,8 +11,8 @@ Os pacientes com condições psiquiátricas muitas vezes precisam de estímulos 
 # Modelo MR
 ![WhatsApp Image 2024-11-03 at 16 34 33](https://github.com/user-attachments/assets/178d1e11-d7df-455b-814f-5ff5b6ffabf2)
 
-# 10 perguntas
-O projeto requeriu que fizéssemos 10 perguntas que agreguem valor à equipe baseados no banco de dados. Foram elas: 
+# 10 perguntas que agreguem valor ao negócio
+O projeto requeriu que fizéssemos 10 perguntas que agreguem valor à equipe baseadas no banco de dados, e respondidas com consultas. Foram elas: 
 
 1. Qual o percentual de inscritos que realmente foram aos últimos eventos?
 Este dado mostra a assiduidade dos inscritos, ajudando a entender o engajamento e a real adesão dos participantes. Isso é fundamental para avaliar o sucesso dos eventos e planejar melhorias para aumentar a frequência.
@@ -46,14 +46,16 @@ Comparar o valor médio dos pedidos com e sem entrega permite identificar se cli
 
 # Atributos adicionados 
 • **satisfacao_Medico** -  O atributo satisfacao_Medico foi atribuído à entidade Medico ele serve para armazenar a pesquisa de satisfação com uma nota média de 1 a 5 mostrando se os médicos gostam de trabalhar no local.
+
 • **Frequencia** - O atributo Frequencia foi adicionado à entidade associativa Inscricao, que relaciona Participante e Evento ele guarda um valor booleano para indicar se o inscrito esteve presente ou não no evento através do escaneamento do ingresso.
+
 • **satisfacao_Participante** - o atributo satisfacao_Participante também foi incluído na entidade associativa Inscricao ele registra se o participante gostou do evento com uma nota de 1 a 5 com uma pesquisa de satisfação assim como no atributo satisfacao_Medico.
 # Toque final
 Montamos nosso logotipo, com tons pastéis brancos e azuis para referir a paz e tranquilidade.
 ![_e2e66f5f-f6de-401e-bf07-c87a8e32f614](https://github.com/user-attachments/assets/4088c15f-67e9-46db-8ab1-65d6590bfcd9)  
 Esse trabalho foi feito por: Adele Brovelli, Bruna Lopes, Maria Eduarda Carvalho e Sérgio Melo
  
-# divisão entre o grupo 
+# Divisão de tarefas entre o grupo 
 Adele Brovelli: ddl, dml e dql dos codigos.
 
 Bruna Lopes: preparação do github e slides.
